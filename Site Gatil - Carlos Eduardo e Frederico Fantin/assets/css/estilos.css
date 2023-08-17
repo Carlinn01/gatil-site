@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Architecs Daughter';
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+#nav {
+    background-color: lightsteelblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 5px 0px;
+    margin: 0 5px;
+}
+
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+
+#nav ul.right li {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#nav ul#menu li.active {
+    background-color: wheat;
+}
+
+#nav ul#menu li:hover {
+    background-color: wheat;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.banner {
+    position: relative;
+}
+
+.coral {
+    background-color:lightcoral;
+}
+
+.salmon {
+    background-color: salmon;
+}
+
+.darksalmon {
+    background-color: darksalmon;
+}
+
+.banner::before {
+    content: "";
+    background-image: url(../img/fundo.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0000.06;
+}
+
+.btn {
+    font-family: var(--fonte-principal);
+    padding: 15px;
+    margin: 30px 0;
+    border-radius: 45px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+
+hr {
+    margin-bottom: 10px;
+}
+
+section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding-right: 10px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 24.99%;
+}
+
+.col-4 {
+    width: 33.32%;
+}
+
+.col-5 {
+    width: 41.65%;
+}
+
+.col-6 {
+    width: 49.98%;
+}
+
+.col-7 {
+    width: 58.31%;
+}
+
+.col-8 {
+    width: 66.64%;
+}
+
+.col-9 {
+    width: 74.97%;
+}
+
+.col-10 {
+    width: 83, 3%;
+}
+
+.col-11 {
+    width: 91, 6%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+#gatos img {
+    height: 200px;
+}
+
+#gatos h6 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #f8f8f8;
+    background-color: crimson;
+    border-radius: 0 0 8px 8px;
+    font-weight: normal;
+    padding: 5px;
+}
+
+#Loja img {
+    height: 350px;
+    width: 350px;
+}
+
+
+img {
+    width: 100%;
+}
+
+img.img_ajuste {
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    height: 100;
+    width: 100;
+}
+
+#main {
+    padding-top: 0px;
+}
+
+
+.centerp {
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.textbox {
+    font-size: 23px;
+}
+
+.botao  {
+    position: relative;
+    top:20px;
+    left:0px;
+    margin:10px;
+    padding:5px;
+}
+
+footer {
+    position: relative;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.esquerda {
+    float: left;
+    margin-left: 20px;
+}
+
+.centerf {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    margin-right: 20px;
+}
+
+
+
